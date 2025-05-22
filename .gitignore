@@ -1,0 +1,24 @@
+# --- Python / Jupyter ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.ipynb_checkpoints/
+.ipynb_checkpoints/
+
+# --- Build / dist ---
+build/
+dist/
+artifacts/
+
+# --- Data & outputs ---
+experiments/**/data/
+experiments/**/plots/
+*.db
+*.csv
+*.parquet
+*.png
+
+# --- Misc ---
+.env
+.venv/
+.DS_Store
